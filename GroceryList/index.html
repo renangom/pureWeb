@@ -33,6 +33,10 @@
             this.elements.writeList.value = "";
             item.append(text);
             list.append(item);
+
+            let rmvBtn = document.createElement("span");
+            rmvBtn.classList.add('remove');
+            item.append(rmvBtn);
         }
     </script>
 </body>
